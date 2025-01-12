@@ -41,7 +41,7 @@ export function AddressItem({ label, value, image, expanded, layoutId }: Address
                     </motion.span>
                 )}
                 <motion.span layout
-                    className="relative cursor-pointer"
+                    className="relative cursor-pointer text-2xl font-semibold"
                     style={{
                         color: isHovered && !expanded ? "#3B82F6" : "#000000",
                         transition: "color 0.3s"
@@ -56,7 +56,7 @@ export function AddressItem({ label, value, image, expanded, layoutId }: Address
                             initial={{ opacity: 0, y: -5 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -5 }}
-                            className="text-xs text-gray-500 mt-1 absolute top-8"
+                            className="text-xs text-gray-500 mt-1 absolute top-10"
                         >
                             {label}
                         </motion.span>

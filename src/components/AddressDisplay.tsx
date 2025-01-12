@@ -51,7 +51,7 @@ export default function AddressDisplay() {
                                         expanded={expanded}
                                         layoutId={item.key}
                                     />
-                                    {index < addressItems.length - 1 && <motion.span layout>,</motion.span>}
+                                    {index < addressItems.length - 1 && <motion.span layout className="font-semibold text-2xl">,</motion.span>}
                                 </React.Fragment>
                             ))}
                         </motion.div>
