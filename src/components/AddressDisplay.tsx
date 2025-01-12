@@ -29,7 +29,7 @@ export default function AddressDisplay() {
                                     key={item.key}
                                     label={item.label}
                                     value={item.value}
-                                    image={PREVIEW_IMAGES[item.key]}
+                                    image={PREVIEW_IMAGES[item.key as keyof typeof PREVIEW_IMAGES]}
                                     expanded={expanded}
                                     layoutId={item.key}
                                 />
@@ -47,7 +47,7 @@ export default function AddressDisplay() {
                                     <AddressItem
                                         label={item.label}
                                         value={item.value}
-                                        image={PREVIEW_IMAGES[item.key]}
+                                        image={PREVIEW_IMAGES[item.key as keyof typeof PREVIEW_IMAGES]}
                                         expanded={expanded}
                                         layoutId={item.key}
                                     />

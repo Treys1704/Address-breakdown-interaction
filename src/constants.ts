@@ -1,3 +1,5 @@
+import {PreviewImages} from "./types.ts";
+
 export const ADDRESS_DATA = {
     street: "One Apple Park Way",
     city: "Cupertino",
@@ -6,7 +8,7 @@ export const ADDRESS_DATA = {
     country: "United States"
 }
 
-export const PREVIEW_IMAGES = {
+export const PREVIEW_IMAGES: PreviewImages = {
     street: "/street.jpeg",
     city: "/city.jpeg",
     state: "/NY.png",

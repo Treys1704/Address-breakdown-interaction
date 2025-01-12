@@ -1,11 +1,3 @@
-export interface AddressData {
-    street: string;
-    city: string;
-    state: string;
-    zip: string;
-    country: string;
-}
-
 export interface AddressItemProps {
     label: string;
     value: string;
@@ -14,3 +6,10 @@ export interface AddressItemProps {
     layoutId: string;
 }
 
+export interface PreviewImages {
+    street: string;
+    city: string;
+    state: string;
+    zip: string;
+    country: string;
+}
